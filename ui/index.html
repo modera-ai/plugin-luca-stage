@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>卢卡的小屋</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="home" aria-label="卢卡的三维洞穴小屋">
+      <canvas id="scene" aria-label="三维场景，可拖动旋转视角"></canvas>
+      <div id="interface"></div>
+      <header>
+        <div class="brand">
+          <span class="logo">L</span>
+          <div>
+            <h1 id="title">卢卡的小屋</h1>
+            <p id="subtitle">山丘里的小小工作日</p>
+          </div>
+        </div>
+        <span class="pill" id="mode">生活中</span>
+      </header>
+      <div class="bubble" id="bubble" aria-hidden="true">
+        我在这里，慢慢来。
+      </div>
+      <section class="status">
+        <span class="dot"></span>
+        <div>
+          <strong id="status" role="status">正在打开小屋…</strong>
+          <p id="detail">让工作有一点生活的温度</p>
+        </div>
+      </section>
+      <nav aria-label="场景设置">
+        <button id="reset" title="恢复视角">复位视角</button
+        ><button id="motion" aria-pressed="false">减少动画</button
+        ><button id="quality" aria-pressed="false">省电画质</button>
+      </nav>
+      <p class="hint" id="hint">拖动看看小屋 · 滚轮缩放</p>
+      <div id="error" role="alert" hidden>
+        <strong>小屋暂时没有打开</strong>
+        <p id="error-message"></p>
+        <button id="retry">重新加载</button>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
