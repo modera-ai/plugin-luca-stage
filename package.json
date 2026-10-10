@@ -14,11 +14,11 @@
     "release": "modera-plugin release . --publish"
   },
   "devDependencies": {
+    "@modera/contracts": "file:vendor/modera-contracts-0.1.0.tgz",
     "@modera/plugin-build": "file:vendor/modera-plugin-build-0.1.0.tgz",
     "@modera/plugin-sdk": "file:vendor/modera-plugin-sdk-0.1.0.tgz",
-    "@types/three": "^0.186.0",
     "@types/react-dom": "^19.1.9",
-    "@modera/contracts": "file:vendor/modera-contracts-0.1.0.tgz"
+    "@types/three": "^0.186.0"
   },
   "dependencies": {
     "react": "^19.3.0",
