@@ -3,7 +3,7 @@
   "activationScope": "global",
   "id": "modera.luca-stage",
   "name": "Luca Stage",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A warm Three.js cave dollhouse with Luca, your little working companion.",
   "author": "Modera",
   "category": "appearance",
